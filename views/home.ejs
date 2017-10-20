@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:8080/dragons">
+      ADD:
+      <input type="text" name="dragon" placeholder="name">
+      <button>SUBMIT</button>
+    </form>
+      <% fat.forEach(function(f){ %>
+        <h2><%= f.id%></h2>
+        <h3><%= f.name%></h3>
+
+      <% }) %>
+
+  </body>
+</html>
